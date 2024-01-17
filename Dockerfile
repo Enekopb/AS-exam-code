@@ -1,7 +1,7 @@
 # Imagen base
 FROM node:slim
 
-# Establecer como directorio de trabajo /code
+# Establecer como directorio de trabajo /app
 WORKDIR /app 
 
 # Copiar los ficheros
