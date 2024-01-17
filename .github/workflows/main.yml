@@ -24,5 +24,3 @@ jobs:
 
       - name: Build imagen Dockerfile
         uses: cloudposse/github-action-docker-compose-test-run@main
-        with:
-          file: app/Dockerfile
